@@ -62,3 +62,8 @@ The response would be something like:
     "url": "https://apod.nasa.gov/apod/image/eta_laser.gif"
 }
 ```
+
+## TODO
+
+1. Save the requested image locally
+2. Create a CLI inteface
