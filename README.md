@@ -22,9 +22,6 @@ virtualenv environment
 
 1. Clone the repo
 
-```bash 
-git clone https://github.com/nasa/apod-api
-```
 2. cd into the new directory
 
 ```bash 
