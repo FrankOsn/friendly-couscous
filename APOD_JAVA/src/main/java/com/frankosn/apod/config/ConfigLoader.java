@@ -26,9 +26,15 @@ public class ConfigLoader {
     }
 
     /**
-     * Gets the images directory path, defaulting to "images" in the current directory.
+     * Gets the images directory path, defaulting to "images" inside the APOD_JAVA module.
      */
     public static String getImagesDirectory() {
-        return "images";
+        String baseDir = System.getenv("APOD_JAVA_HOME");
+        if (baseDir != null && !baseDir.isEmpty()) {
+            return baseDir + "/images";
+        }
+        // Default to current directory's images folder
+        // When running from JAR in APOD_JAVA, use relative path
+        return "./images";
     }
 }
