@@ -34,7 +34,7 @@ python -m venv venv
 ```
 4. Activate the new environment
 ```bash
-.\venv\Scripts\Activate
+source .\venv\Scripts\Activate
 ```
 5. Install dependencies in new environment
 ```bash
@@ -62,6 +62,10 @@ The response would be something like:
     "url": "https://apod.nasa.gov/apod/image/eta_laser.gif"
 }
 ```
+
+## Save the requested image locally
+
+Now we have the image, saved in our folder.
 
 ## TODO
 
