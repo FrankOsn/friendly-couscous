@@ -83,13 +83,16 @@
 
     <build>
         <plugins>
-            <!-- Compiler Plugin: use release to ensure consistent target -->
+            <!-- Compiler Plugin: use source/target for Java 21 -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.14.1</version>
                 <configuration>
-                    <release>21</release>
+                    <source>21</source>
+                    <target>21</target>
+                    <executable>/Users/franciscoosnaya/.jdk/jdk-21.0.8/jdk-21.0.8+9/Contents/Home/bin/javac</executable>
+                    <fork>true</fork>
                 </configuration>
             </plugin>
 

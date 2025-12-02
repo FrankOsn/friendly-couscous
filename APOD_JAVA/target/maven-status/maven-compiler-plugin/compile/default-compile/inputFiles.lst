@@ -1,0 +1,10 @@
+/Users/franciscoosnaya/Documents/Github/friendly-couscous/APOD_JAVA/src/main/java/com/frankosn/apod/ApodApplication.java
+/Users/franciscoosnaya/Documents/Github/friendly-couscous/APOD_JAVA/src/main/java/com/frankosn/apod/cli/ApodCli.java
+/Users/franciscoosnaya/Documents/Github/friendly-couscous/APOD_JAVA/src/main/java/com/frankosn/apod/config/ConfigLoader.java
+/Users/franciscoosnaya/Documents/Github/friendly-couscous/APOD_JAVA/src/main/java/com/frankosn/apod/model/ApodData.java
+/Users/franciscoosnaya/Documents/Github/friendly-couscous/APOD_JAVA/src/main/java/com/frankosn/apod/model/ApodMetadata.java
+/Users/franciscoosnaya/Documents/Github/friendly-couscous/APOD_JAVA/src/main/java/com/frankosn/apod/model/MediaType.java
+/Users/franciscoosnaya/Documents/Github/friendly-couscous/APOD_JAVA/src/main/java/com/frankosn/apod/service/ApodService.java
+/Users/franciscoosnaya/Documents/Github/friendly-couscous/APOD_JAVA/src/main/java/com/frankosn/apod/storage/ApodStorage.java
+/Users/franciscoosnaya/Documents/Github/friendly-couscous/APOD_JAVA/src/main/java/com/frankosn/apod/util/DateUtil.java
+/Users/franciscoosnaya/Documents/Github/friendly-couscous/APOD_JAVA/src/main/java/com/frankosn/apod/util/FileManager.java
